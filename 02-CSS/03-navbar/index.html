@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title> Building a navbar!</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav>
+        <ul class="topnav" id="dropDownClick">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#conacts">Contacts</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+            <li class="topnav-right"><a href="#signin">Sign In</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropDownMenu()">☰</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        function dropDownMenu() {
+            var x = document.getElementById("dropDownClick");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                /* change topnav to topnav.responsive*/
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

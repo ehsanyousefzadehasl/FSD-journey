@@ -1,0 +1,112 @@
+html {
+    font-family: 'Goldman', 'Source Sans Pro', serif, sans-serif;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    font-family: monospace;*/
+}
+
+.body-container {
+    background-image: linear-gradient(#aaaaaa, white);
+/*    text-align: center;*/
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1%;
+    padding-top: 0.5%;
+}
+
+h5 {
+    font-family: 'Roboto Mono';
+    color: deeppink;
+    width: 85%;
+    margin: auto;
+    font-size: 2em;
+}
+
+.par {
+    color: aqua;
+    background-color: dimgrey;
+    width: 85%;
+    margin: auto;
+    text-shadow: 2px 2px 2px black;
+}
+
+#par {
+    color: white;
+    background-color: chartreuse;
+    font-style: oblique;
+    width: 85%;
+    margin: auto;
+}
+
+.box {
+    width: 200px;
+    height: 180px;
+    background-color: darksalmon;
+    margin: auto;
+}
+
+#circle {
+    color: forestgreen;
+    font-size: 40px;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    padding: 1%;
+    margin: 1%;
+    opacity: 90%;
+    display: block;
+    margin: auto;
+}
+.borderImg {
+    border: 2px solid red;
+    width: 50%;
+    border-radius: 5%;
+}
+
+.borderImg1 {
+    border: 2px solid red;
+    width: 50%;
+    border-radius: 50%;
+}
+ul li {
+    color: white;
+    background-color: dimgray;
+    font-size: 20px;
+}
+
+ul > li {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: deeppink;
+/*    word-spacing: 2em;*/
+    text-transform: uppercase;
+}
+
+.formatting {
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    border-color: aquamarine;
+    border-radius: 15%;
+    padding: 2%;
+}
