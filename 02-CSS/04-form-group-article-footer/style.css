@@ -328,7 +328,7 @@ footer.footsy ul li{
 
 /*############# Mobile ##############*/
 
-@media screen and (max-width: 680px) {
+@media (max-width: 800px) {
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }

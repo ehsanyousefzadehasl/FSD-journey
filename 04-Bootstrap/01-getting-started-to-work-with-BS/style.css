@@ -1,0 +1,71 @@
+body.signin-body {
+    background-color: #e6f2ff;
+}
+
+.container.signin-container {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.signin-card {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2%;
+    margin: auto;
+    background-color: #f4f4f4;
+    box-shadow: 0px 0px 0px 1px #3ea1cf;
+    border-radius: 8px;
+}
+
+.img-sm {
+    width: 20%;
+}
+
+p.signin-label {
+    font-size: 1.2rem;
+    display: block;
+    padding-left: 40%;
+}
+
+.signin-form {
+    width: 85%;
+    margin: auto;
+    padding: 5%;
+    box-shadow: 0px 0px 0px 1px #3ea1cf;
+    border-radius: 8px;
+}
+
+button.signin-btn {
+    width: 100%;
+}
+
+a.create-new-account {
+    display: block;
+    font-size: 1.4rem;
+    padding-left: 35%;
+    padding-top: 2%;
+}
+
+/*########## Little Screens #########*/
+@media screen and (max-width: 768px) {
+/*
+    .signin-card {
+        width: 120%;
+    }
+
+    .signin-form {
+        width: 100%;
+        margin: 0;
+    }
+*/
+
+    a.create-new-account {
+        font-size: 1rem;
+        padding-left: 39%;
+    }
+    
+    p.signin-label {
+    font-size: 1rem;
+    padding-left: 34%;
+}
+}
